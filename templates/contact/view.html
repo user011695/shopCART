@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% load crispy_forms_tags %}
+
+{% block content %}
+   <div class="text-center">
+           <h1>{{ title }}</h1>
+           <h1>Hello, world!</h1>
+            </div>
+         <div class="container">
+             <div class="row">
+                 <div class="col">
+                     <p>{{ content }}</p>
+                      <div class="col-sm-6 col-12 mx-auto">
+                     <form class='contact-form' method="POST" action='{% url "contact" %}'>{% csrf_token %}
+
+                         {{ form|crispy }}
+                         <button type="submit" class="btn btn-default">Submit</button>
+
+                         <!--<input type="text" class="form-control" placeholder="name" name="fullname">-->
+                         <!--<input type="email" class="form-control" placeholder="Email" name="email">-->
+                         <!--<textarea name="content" class="form-control" placeholder="Your content"></textarea>-->
+
+                     </form>
+                          </div>
+                 </div>
+             </div>
+         </div>
+
+{% endblock %}

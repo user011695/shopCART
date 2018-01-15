@@ -1,0 +1,44 @@
+[
+{
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+        "title": "mobile",
+        "slug": "handset",
+        "description": "mobile handset",
+        "price": "40.00",
+        "image": "products/278683074/278683074.jpg",
+        "featured": false,
+        "active": true,
+        "timestamp": "2018-01-05T08:55:23.921Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+        "title": "water bottle",
+        "slug": "water-bottle-0lnr",
+        "description": "pani ki bottle",
+        "price": "10.00",
+        "image": "products/2671433779/2671433779.jpg",
+        "featured": false,
+        "active": true,
+        "timestamp": "2018-01-05T08:55:23.921Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 5,
+    "fields": {
+        "title": "batman",
+        "slug": "batwing",
+        "description": "batman and robin",
+        "price": "100.45",
+        "image": "products/947238736/947238736.jpg",
+        "featured": false,
+        "active": true,
+        "timestamp": "2018-01-05T08:55:23.921Z"
+    }
+}
+]
