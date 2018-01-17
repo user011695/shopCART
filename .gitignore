@@ -1,6 +1,7 @@
 .DS_STORE
 
-jquery/
+
+webapp/settings/local.py
 
 # Virtualenv related
 bin/
@@ -8,7 +9,7 @@ include/
 pip-selfcheck.json
 
 # Django related
-webapp/settings/local.py
+
 # src/<yourproject>/settings/local.py
 # static-cdn/  # any collected static files
 
