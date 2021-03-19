@@ -17,7 +17,7 @@ django-registration-redux==1.8
 django-registration==2.2
 django-search-views==0.3.7
 Django==1.11
-djangorestframework==3.6.4
+djangorestframework==3.11.2
 Flask==0.12.2
 fudge==1.0.3
 gitdb2==2.0.3
